@@ -7,7 +7,15 @@ reddit = praw.Reddit(client_id='2WHqLvf5aRq3tQ',
                      password='12qwaszxX@1zp')
 
 def subspam():
-    misctext = "My name is john"  # you need to change this to your message
+    misctext = """John here, original owner of thcdelivery, https://www.realthcdelivery.com/
+messaging you all of you to let you know that the
+REAL THC DELIVERY Will be doing a Friday Flash Sale :
+
+SITE WIDE 50% OFF SALE
+
+Use Coupon Code :
+RealTHCD
+At Checkout"""  # you need to change this to your message
 
     subname = 'CanadianMOMs+canadients'  # obviously you can add more subreddits to this
     usedusernames = []
